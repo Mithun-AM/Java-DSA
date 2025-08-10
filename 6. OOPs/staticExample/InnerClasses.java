@@ -19,7 +19,7 @@ public class InnerClasses {
 
         System.out.println(a);
 
-//        System.out.println(a.name);
-//        System.out.println(b.name);
+       System.out.println(a.name);
+       System.out.println(b.name);
     }
 }

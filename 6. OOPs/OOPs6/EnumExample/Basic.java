@@ -30,13 +30,13 @@ public class Basic {
 
     public static void main(String[] args) {
         Week week;
-        week = Week.Monday;
+        week = Week.Tuesday;
         week.hello();
         System.out.println(Week.valueOf("Monday"));
-//        for(Week day : Week.values()) {
-//            System.out.println(day);
-//        }
+       for(Week day : Week.values()) {
+           System.out.println(day);
+       }
 
-//        System.out.println(week.ordinal());
+       System.out.println(week.ordinal());
     }
 }

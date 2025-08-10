@@ -10,10 +10,12 @@ public class SubClass extends A{
 
     public static void main(String[] args) {
         A obj = new A(23);
-        int n = obj.num;
+        // int n = obj.num;
+        // System.out.println(n);
         
         SubClass obj1 = new SubClass(23);
         int n1 = obj1.num;
+        System.out.println(n1);
     }
     
 }
